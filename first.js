@@ -13,3 +13,7 @@ if(score >= 90 && score <= 100) {
 }else{
     console.log("not found");
 }
+
+
+
+console.log("Your score is: " + score);
