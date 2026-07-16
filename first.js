@@ -1,19 +1,15 @@
-let score = prompt("Enter your score: ");
+let gameNum = 60;
+ let userNum = prompt("guess the number :");
 
-if(score >= 90 && score <= 100) {
-    console.log("A grade");
-}else if(score >= 70 && score <= 89) {
-    console.log("B grade");
-}else if(score >= 50 && score <= 69){
-    console.log("C grade");
-}else if(score >= 35 && score <= 49){
-    console.log("D grade");
-}else if(score >= 0 && score <= 34){
-    console.log("fail");
-}else{
-    console.log("not found");
-}
+ while ( userNum != gameNum) {
+    userNum = prompt("you guess the wrong number try again :");
+    userNum = prompt("again wrong number try again :");
+    userNum = prompt("this is not expected from you :");
+    userNum = prompt("you are not eligiable to play this game :");
+    userNum = prompt("you are noob in ff not here try again:");
+    userNum = prompt("you are really noob the num is 59 :");
+    userNum = prompt("do you think i give you the right num ha ha ha :");
+    userNum = prompt("let give you a hint you are very close to the number :");
+ }
 
-
-
-console.log("Your score is: " + score);
+ console.log("great you guess the right number");
