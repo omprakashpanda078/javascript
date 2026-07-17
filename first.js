@@ -1,7 +1,10 @@
-let fulName = prompt("Enter your name without space");
+let marks = [85,97,44,37,58,60];
 
+let sum = 0;
 
-let userName = "@"+fulName+fulName.length;
-
-
-console.log(userName);
+for(let i = 0; i<marks.length; i++){
+    console.log(marks[i]); 
+    sum = sum + marks[i];
+}
+let avg = sum / marks.length;
+console.log("the avg of the total no. is ", avg)
