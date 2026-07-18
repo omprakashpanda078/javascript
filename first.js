@@ -1,11 +1,15 @@
-let price = [250,645,300,900,50];
+let companyName = ["bloomberg","microsoft","uber","google","IBM","netflix"];
 
-// formula discount = price/10 finalPrice = discount - offer
-for(let i=0; i<price.length; i++){  
-    let currPrice = price[i];
-    let discount = currPrice/10;
-    let finalPrice = currPrice - discount;
-    // updating finalPrice at each respective index
-    price[i]=finalPrice;
-}
-console.log(price);
+//remove first company from array
+
+//companyName.shift(0)
+
+//to add ola in uber place
+//companyName.splice(2,1,"ola");
+
+//add amazone at the end
+
+companyName.pop()
+
+
+console.log(companyName)
