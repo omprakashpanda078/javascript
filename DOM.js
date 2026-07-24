@@ -8,4 +8,3 @@ for (div of divs){
     // div.innerText = `new unique value ${idx}`
     // idx++;
 }
-console.log(divs[0].innerText);
