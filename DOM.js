@@ -1,10 +1,16 @@
-let divs = document.querySelectorAll("Box");
+let heading = document.querySelector("h1");
 
-let idx = 0;
-for (div of divs){
+let btn1 = document.querySelector("button");
 
-    console.log(div.innerHTML);
 
-    // div.innerText = `new unique value ${idx}`
-    // idx++;
+ btn1.addEventListener("click", ()=>{
+    if(heading.innerText === "Hello"){
+    heading.innerText="welcome to java script";
+}else{
+    //to print hello again 
+
+     heading.innerText = "Hello";
 }
+});
+
+// heading.innerText = "welcome to javascript";
