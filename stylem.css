@@ -1,0 +1,12 @@
+.changes {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    color: black;
+    border: 2px black solid;
+}
+
+.mode {
+    background-color: chocolate;
+    color: white;
+}
