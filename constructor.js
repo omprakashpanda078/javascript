@@ -1,9 +1,22 @@
- class Student{
-    constructor(name,age){
-        this.name = name;
-        this.age = age;    }
- }
- let student1 = new Student("omprakash panda",20);
 
- console.log(student1.name);
- console.log(student1.age);
+//perent class
+class Vehicle{
+    start(){
+        console.log("vehicle started");
+    }
+    stop(){
+        console.log("vechicle stop");
+    }
+}
+//child clasa
+
+class car extends Vehicle{
+    drive(){
+        console.log("car is driving");
+    }
+}
+let c1 = new car();
+
+c1.start();
+c1.drive();
+c1.stop();
