@@ -1,22 +1,15 @@
-
-//perent class
-class Vehicle{
-    start(){
-        console.log("vehicle started");
-    }
-    stop(){
-        console.log("vechicle stop");
+class Animal{
+    constructor(name,breed){
+        this.name = name;
+        this.breed = breed;
     }
 }
-//child clasa
-
-class car extends Vehicle{
-    drive(){
-        console.log("car is driving");
+class dog extends Animal{
+    constructor(name,breed){
+        super(name,breed);
     }
 }
-let c1 = new car();
 
-c1.start();
-c1.drive();
-c1.stop();
+let d1 = new dog("seru","labrador");
+console.log(d1.name);
+console.log(d1.breed);
